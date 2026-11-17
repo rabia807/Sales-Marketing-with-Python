@@ -1,0 +1,25 @@
+date,region,product,units_sold,unit_price,marketing_spend,website_visits,leads,conversions,campaign
+2025-01-05,North,Laptop,8,850,420,1200,96,18,Search Ads
+2025-01-12,South,Phone,22,520,360,1800,144,30,Social Media
+2025-01-19,East,Tablet,15,300,250,950,76,16,Email
+2025-01-26,West,Headphones,35,80,180,1100,88,22,Social Media
+2025-02-02,North,Phone,18,520,390,1600,128,27,Search Ads
+2025-02-09,South,Laptop,6,850,450,1300,104,15,Email
+2025-02-16,East,Headphones,42,80,210,1250,100,26,Social Media
+2025-02-23,West,Tablet,19,300,280,1050,84,19,Search Ads
+2025-03-02,North,Tablet,17,300,260,980,78,18,Email
+2025-03-09,South,Phone,26,520,410,1950,156,34,Social Media
+2025-03-16,East,Laptop,9,850,500,1450,116,21,Search Ads
+2025-03-23,West,Headphones,38,80,190,1180,94,24,Email
+2025-04-06,North,Phone,24,520,400,1850,148,32,Social Media
+2025-04-13,South,Tablet,21,300,290,1120,90,20,Search Ads
+2025-04-20,East,Headphones,46,80,220,1320,106,29,Email
+2025-04-27,West,Laptop,7,850,470,1380,110,17,Social Media
+2025-05-04,North,Laptop,11,850,540,1550,124,24,Search Ads
+2025-05-11,South,Headphones,51,80,230,1420,114,31,Email
+2025-05-18,East,Phone,29,520,430,2100,168,38,Social Media
+2025-05-25,West,Tablet,23,300,310,1210,97,23,Search Ads
+2025-06-01,North,Headphones,48,80,215,1360,109,28,Email
+2025-06-08,South,Laptop,10,850,520,1500,120,22,Social Media
+2025-06-15,East,Tablet,25,300,320,1280,102,25,Search Ads
+2025-06-22,West,Phone,31,520,445,2200,176,40,Social Media
