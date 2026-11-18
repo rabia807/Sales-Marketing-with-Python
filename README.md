@@ -1,6 +1,6 @@
 # Sales Marketing with Python
 
-A beginner-friendly data analytics project that explores sales results and marketing campaign performance with **Python, pandas, and Matplotlib**.
+A beginner-friendly data analytics project that explores sales results and marketing campaign performance with **Python, pandas, Matplotlib, and Streamlit**.
 
 > **Dataset note:** The included CSV contains illustrative, synthetic sample data created for learning and demonstration. It is not real customer or company data.
 
@@ -10,7 +10,7 @@ A beginner-friendly data analytics project that explores sales results and marke
 - Review product and regional sales performance.
 - Measure leads, conversions, and visit-to-conversion rate.
 - Compare marketing campaigns using Return on Ad Spend (ROAS).
-- Generate charts to make trends easier to understand.
+- Generate charts and explore results in an interactive dashboard.
 
 ## Repository structure
 
@@ -18,8 +18,9 @@ A beginner-friendly data analytics project that explores sales results and marke
 Sales-Marketing-with-Python/
 ├── data/
 │   └── sales_marketing_data.csv
-├── outputs/                     # Generated charts (created when script runs)
+├── outputs/                     # Static charts created by analysis script
 ├── sales_marketing_analysis.py
+├── streamlit_app.py              # Interactive dashboard
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -29,7 +30,8 @@ Sales-Marketing-with-Python/
 
 - Python 3.9+
 - pandas — data cleaning, grouping, and calculations
-- Matplotlib — charts and visualizations
+- Matplotlib — static charts
+- Streamlit — interactive dashboard
 
 ## Getting started
 
@@ -60,13 +62,27 @@ Sales-Marketing-with-Python/
    pip install -r requirements.txt
    ```
 
-4. Run the analysis:
+## Run the Python analysis
 
-   ```bash
-   python sales_marketing_analysis.py
-   ```
+```bash
+python sales_marketing_analysis.py
+```
 
-The script prints a performance summary in the terminal and creates three PNG charts inside the `outputs/` folder.
+The script prints a performance summary and creates three PNG charts inside the `outputs/` folder.
+
+## Launch the interactive dashboard
+
+```bash
+streamlit run streamlit_app.py
+```
+
+Streamlit will open the dashboard in your browser. Use the sidebar to filter by date, region, product, and campaign. The dashboard includes:
+
+- KPI cards for revenue, marketing spend, ROAS, units sold, and conversion rate
+- Monthly revenue trend
+- Revenue by product and region
+- Campaign performance table
+- Filtered sales data with CSV download
 
 ## Metrics explained
 
@@ -80,18 +96,12 @@ The script prints a performance summary in the terminal and creates three PNG ch
 
 **Important:** ROAS is a revenue-to-ad-spend ratio. It does not account for product costs, salaries, taxes, or other operating expenses, so it should not be interpreted as net profit.
 
-## Generated visualizations
-
-- `outputs/monthly_revenue.png` — monthly revenue trend
-- `outputs/revenue_by_product.png` — revenue comparison by product
-- `outputs/campaign_roas.png` — campaign ROAS comparison
-
 ## Ideas to extend the project
 
 - Add more months and regions.
 - Import your own anonymized sales CSV.
 - Compare campaign conversion rates and cost per lead.
-- Build an interactive dashboard with Streamlit.
+- Deploy the Streamlit dashboard using Streamlit Community Cloud.
 - Add unit tests and automated data-quality checks.
 
 ## Author
