@@ -77,7 +77,7 @@ st.markdown("""
 st.link_button("View project on GitHub ↗",GITHUB)
 
 st.write("")
-st.markdown('<div id="contact"></div><div class="kicker" style="color:#6d5dfc">Let's work together</div>',unsafe_allow_html=True)
+st.markdown("<div id='contact'></div><div class='kicker' style='color:#6d5dfc'>Let's work together</div>", unsafe_allow_html=True)
 st.header("Have a data project in mind?")
 st.markdown('<p class="muted">Message me on Fiverr to discuss your dataset, research question or dashboard requirements. Please share your goals and relevant details before ordering.</p>',unsafe_allow_html=True)
 st.link_button("Contact Rabia on Fiverr ↗",FIVERR)
